@@ -33,16 +33,12 @@ main {
   justify-items: center;
 }
 
+/* Resume page CSS*/
 .resume {
-  padding: 10px;
+  padding: 30px;
   border-left: 2px solid black;
   border-right: 2px solid black;
   border-bottom: 2px solid black;
-}
-
-input {
-  border: 8px black;
-  outline: 4px black;
 }
 
 .download {
@@ -53,6 +49,16 @@ input {
   padding-bottom: 10px;
   border-bottom: 2px solid black;
 }
+
+td {
+  margin-left: 20px;
+}
+
+input {
+  border: 8px black;
+  outline: 4px black;
+}
+
 
 /* CSS for navigation bar */
 
