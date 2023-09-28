@@ -60,6 +60,7 @@ img + p {
   width: 500px;
   height: auto;
 }
+
 /* Resume page CSS*/
 .resume {
   padding: 30px;
@@ -107,7 +108,7 @@ input[type="submit"]:active {
 }
 
 #contact-form {
-  margin-top: 60px;
+  margin-top: 50px;
   text-align: center;
 }
 
@@ -120,6 +121,10 @@ label {
 
 textarea {
   display: block;
+}
+
+.links {
+  font-size: 20px;
 }
 
 
