@@ -75,6 +75,10 @@ input[type="submit"] {
   font-size: 20px;
 }
 
+input[type="submit"]:active {
+  background-color: rgb(208, 212, 215);
+}
+
 #contact-form {
   margin-top: 60px;
   text-align: center;
