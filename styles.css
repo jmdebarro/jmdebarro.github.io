@@ -2,10 +2,6 @@ html {
   height: 100%;
 }
 
-.section {
-  border: 2px black;
-}
-
 body {
   background-color: white;
   position: relative;
@@ -20,6 +16,37 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.sites {
+  list-style: none;
+}
+
+.sites > li {
+  display: inline;
+  margin-right: 8px;
+}
+
+.page-title {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+
+.resume {
+  padding: 10px;
+}
+
+input {
+  border: 8px black;
+  outline: 4px black;
+}
+
+.download {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  margin-bottom: 40px;
 }
 
 /* CSS for navigation bar */
@@ -73,19 +100,4 @@ main {
   bottom: 0;
   width: 100%;
   height: 2.5rem;
-}
-
-.sites {
-  list-style: none;
-}
-
-.sites > li {
-  display: inline;
-  margin-right: 8px;
-}
-
-.page-title {
-  display: flex;
-  justify-content: center;
-  justify-items: center;
 }
