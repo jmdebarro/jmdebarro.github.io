@@ -50,9 +50,14 @@ main {
   border-bottom: 2px solid black;
 }
 
-td {
-  margin-left: 20px;
+.invisible {
+  border-collapse: collapse;
 }
+
+.invisible td {
+  padding-right: 170px;
+}
+
 
 input {
   border: 8px black;
