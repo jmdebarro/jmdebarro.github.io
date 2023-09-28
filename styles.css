@@ -33,6 +33,32 @@ main {
   justify-items: center;
 }
 
+
+/* Homepage CSS */
+.intro-text {
+  border: 1px solid black;
+}
+
+.flexbox {
+  display: flex;
+  flex-direction: row;
+  margin-top: 60px;
+  align-items: center;
+  background-color: aliceblue;
+  padding: 15px;
+  border-style: inset;
+}
+
+img + p {
+  font-size: 30px;
+  line-height: 2;
+}
+
+.star {
+  margin-right: 20px;
+  width: 500px;
+  height: auto;
+}
 /* Resume page CSS*/
 .resume {
   padding: 30px;
