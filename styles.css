@@ -85,7 +85,8 @@ img + p {
   width: auto;
 }
 .gallo,
-.website {
+.website,
+.joke {
   margin-right: 15px;
   border: 1px solid black;
 }
