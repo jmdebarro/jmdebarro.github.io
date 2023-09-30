@@ -71,6 +71,7 @@ img + p {
   background-color: aliceblue;
   padding: 15px;
   border-style: inset;
+  margin-bottom: 15px;
 }
 
 
@@ -80,7 +81,7 @@ img + p {
 }
 
 .gallo {
-  height: 80%;
+  height: 450px;
   width: auto;
 }
 .gallo,
