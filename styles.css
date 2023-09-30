@@ -61,6 +61,18 @@ img + p {
   height: auto;
 }
 
+
+/* Portfolio*/
+.portfolio {
+  display: flex;
+  flex-direction: row;
+  margin-top: 60px;
+  align-items: center;
+  background-color: aliceblue;
+  padding: 15px;
+  border-style: outset;
+}
+
 /* Resume page CSS*/
 .resume {
   padding: 30px;
@@ -78,6 +90,7 @@ img + p {
   margin-bottom: 40px;
   padding-bottom: 10px;
   border-bottom: 2px solid black;
+  font-size: 20px;
 }
 
 .invisible {
