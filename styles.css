@@ -73,11 +73,16 @@ img + p {
   border-style: inset;
 }
 
+
 .website {
   width: 600px;
   height: auto;
 }
 
+.gallo {
+  height: 80%;
+  width: auto;
+}
 .gallo,
 .website {
   margin-right: 15px;
