@@ -70,7 +70,18 @@ img + p {
   align-items: center;
   background-color: aliceblue;
   padding: 15px;
-  border-style: outset;
+  border-style: inset;
+}
+
+.website {
+  width: 600px;
+  height: auto;
+}
+
+.gallo,
+.website {
+  margin-right: 15px;
+  border: 1px solid black;
 }
 
 /* Resume page CSS*/
